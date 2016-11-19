@@ -7,16 +7,16 @@ int main ()  {
   printf("Czy kontynuować 1-tak/0-nie ?");
   scanf("%d",&wantContinue);
 
-//while
+//zadanie 3
 
       while (wantContinue == 1) {
         printf("Podaj liczbe : \n");
-        scanf("%d\n", &x);
-        suma=suma+x;
+        scanf("%d", &x);
+        suma=suma + x*x;
         printf("CZy kontynuować 1-tak/0-nie ");
         scanf("%d",&wantContinue);
   }
-  printf("\n");
+  printf("%d\n", suma);
 
     return 0;
   }
